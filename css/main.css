@@ -354,3 +354,26 @@ text-transform: uppercase;}
 .space2{
   height: 120px;
 }
+
+
+.farol-img:hover{
+  border-radius: 80px;
+  box-shadow: 0 20px 80px 20px #32FF32;
+  
+}
+.farol-img2:hover{
+  border-radius: 60px;
+  box-shadow: 0 20px 80px 20px #ccff33;
+  -webkit-border-radius: 60px;
+  -moz-border-radius: 60px;
+  -ms-border-radius: 60px;
+  -o-border-radius: 60px;
+}
+.farol-img3:hover{
+  border-radius: 60px;
+  box-shadow: 0 20px 80px 20px red;
+  -webkit-border-radius: 60px;
+  -moz-border-radius: 60px;
+  -ms-border-radius: 60px;
+  -o-border-radius: 60px;
+}
