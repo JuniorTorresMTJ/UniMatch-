@@ -250,6 +250,15 @@ a:hover {
   letter-spacing: 3.06px;
   text-transform: uppercase;
 }
+  .btn-ingresso:hover{
+    border-radius: 80px;
+    -webkit-border-radius: 80px;
+    -moz-border-radius: 80px;
+    -ms-border-radius: 80px;
+    -o-border-radius: 80px;
+    box-shadow: 0 20px 80px 20px #6b3194;
+}
+
 
 .sobre-til {
   width: 792px;
@@ -402,4 +411,8 @@ text-transform: uppercase;}
   font-weight: 400;
   letter-spacing: 2.04px;
   text-transform: uppercase;
+}
+
+.sympla-widget-626101{
+  
 }
