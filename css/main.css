@@ -377,3 +377,28 @@ text-transform: uppercase;}
   -ms-border-radius: 60px;
   -o-border-radius: 60px;
 }
+
+.til-4{
+
+
+text-shadow: 4px 4px 0 #612292;
+color: #ffffff;
+font-family: "Alfa Slab One";
+font-size: 56px;
+font-weight: 400;
+letter-spacing: 4.76px;
+text-transform: uppercase;}
+
+
+
+.apoio{
+  
+ 
+  text-shadow: 2px 2px 0 #612292;
+  color: #ffffff;
+  font-family: "Alfa Slab One";
+  font-size: 24px;
+  font-weight: 400;
+  letter-spacing: 2.04px;
+  text-transform: uppercase;
+}
