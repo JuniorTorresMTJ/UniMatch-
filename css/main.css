@@ -280,7 +280,20 @@ left: 27%;
 top: 10%
 }
 .sobre-til-2{
-  width: 778px;
+
+  height: 72px;
+  text-shadow: 4px 4px 0 #54197e;
+  color: #ffffff;
+  font-family: "Alfa Slab One";
+  font-size: 56px;
+  font-weight: 400;
+  letter-spacing: 4.76px;
+  text-transform: uppercase;
+
+}
+  
+.sobre-til-3{
+ 
 height: 89px;
 text-shadow: 3px 3px 0 #54197e;
 color: #ffffff;
@@ -289,25 +302,55 @@ font-size: 30px;
 font-weight: 400;
 letter-spacing: 2.55px;
 text-transform: uppercase;
-position: relative;
-  left: 26%;
-  top: 12%;
 }
 
-.social-icon{
-  display: inline-block;
-  position: relative;
-  left: 40%;
-  top: 100%;
-}
 
-.social-icon>figure{
-  
-  display: inline-block
-}
 .grow {
   transition: all 0.2s ease-in-out;
 }
 .grow:hover {
   transform: scale(1.1);
+}
+
+.farol-text{
+  width: 120px;
+height: 39px;
+text-shadow: 3px 3px 0 #54197e;
+color: #ffffff;
+font-family: "Alfa Slab One";
+font-size: 24px;
+font-weight: 400;
+letter-spacing: 2.04px;
+text-transform: uppercase;
+align-items: center;
+
+}
+
+.til-2{
+  width: 522px;
+height: 83px;
+text-shadow: 4px 4px 0 #ffffff;
+color: #6b3194;
+font-family: "Alfa Slab One";
+font-size: 56px;
+font-weight: 400;
+letter-spacing: 4.76px;
+text-transform: uppercase;
+}
+.til-3{
+width: 185px;
+height: 32px;
+text-shadow: 2px 2px 4px #ffffff;
+color: #6b3194;
+font-family: "Alfa Slab One";
+font-size: 24px;
+font-weight: 400;
+letter-spacing: 2.04px;
+text-transform: uppercase;}
+
+.space{
+  height: 90px;
+}
+.space2{
+  height: 120px;
 }
