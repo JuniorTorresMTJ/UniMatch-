@@ -307,11 +307,16 @@ text-transform: uppercase;
 
 .grow {
   transition: all 0.2s ease-in-out;
+  
 }
 .grow:hover {
   transform: scale(1.1);
 }
 
+.butt{
+  border-radius: 60px;
+  box-shadow: 0 20px 80px 20px #54197e
+}
 .farol-text{
   width: 120px;
 height: 39px;
