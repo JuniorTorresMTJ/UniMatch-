@@ -217,20 +217,44 @@ a:hover {
   height: 100%;
 }
 
-.logo {
-  position: absolute;
-  left: 29%;
+.logo{
+  position: relative;
+	left: 32%;
   top: 3%;
+  
 }
-.til {
-  width: 428px;
-  height: 65px;
-  color: #6b3194;
-  font-family: 'Alfa Slab One';
-  font-size: 46px;
+.til{
+text-shadow: 4px 4px 0 #ffffff;
+color: #6b3194;
+font-family: "Alfa Slab One";
+font-size: 42px;
+font-weight: 400;
+text-transform: uppercase;
+position: relative;
+	
+
+}
+
+.text-button{
+  width: 628px;
+  height: 96px;
+  border-radius: 80px;
+  border: 1px solid #6b3194;
+  background-color: #6b3194;
+  position: relative;
+  left: 80%;
+  top: 20%;
+  
+}
+
+
+button{
+  width: 562px;
+  height: 48px;
+  color: #ffffff;
+  font-family: "Alfa Slab One";
+  font-size: 36px;
   font-weight: 400;
+  letter-spacing: 3.06px;
   text-transform: uppercase;
-  position: absolute;
-  left: 34%;
-  top: 97%;
 }
