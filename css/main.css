@@ -181,41 +181,29 @@ a:hover {
   }
 }
 
+.bg-responsive{
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center bottom;}
+
 .section1 {
-  margin-top: 3%;
-  width: 1507px;
   height: 953px;
   background-image: url(../img/section1.png);
-  background-repeat: no-repeat;
-  background-size: 1507px 953px;
 }
 
 .section2 {
-  width: 1507px;
   height: 928px;
   background-image: url(../img/section2.png);
-  background-repeat: no-repeat;
-  background-position: inherit;
-  background-size: 1507px 928px;
 }
 
 .section3 {
-  width: 1507px;
   height: 862px;
   background-image: url(../img/section3.png);
-  background-repeat: no-repeat;
-  background-size: 1507px 863px;
-  background-position: inherit;
 }
 .section4 {
   align-self: auto;
-  width: 1507px;
   height: 953px;
   background-image: url(../img/section4.png);
-  background-repeat: no-repeat;
-  background-size: 1507px 953px;
-
-  background-position: inherit;
 }
 
 .full {
