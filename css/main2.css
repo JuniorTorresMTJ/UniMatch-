@@ -9,6 +9,7 @@
 html,
 body {
   font-size: 16px;
+  scroll-behavior: smooth;
   font-family: 'Alfa Slab One', cursive;
 }
 
@@ -36,6 +37,12 @@ a:visited {
 }
 
 nav a:hover {
+  color: #ffffff;
+  background-color: #844bad;
+}
+
+nav li:hover{
+  background-color: #844bad;
 }
 
 ol,
@@ -97,6 +104,7 @@ ul {
   background-color: #6b3194;
   color: #fff;
   text-transform: uppercase;
+  text-decoration: none;
   font-size: 2.25rem;
   padding: 1.3rem 1.875rem;
   border-radius: 5rem;
@@ -234,4 +242,26 @@ ul {
 
 .section4 div > div {
   margin: 0 auto 0 auto;
+}
+
+.farol-img:hover{
+  border-radius: 80px;
+  box-shadow: 0 20px 80px 20px #32FF32;
+  
+}
+.farol-img2:hover{
+  border-radius: 60px;
+  box-shadow: 0 20px 80px 20px #ccff33;
+  -webkit-border-radius: 60px;
+  -moz-border-radius: 60px;
+  -ms-border-radius: 60px;
+  -o-border-radius: 60px;
+}
+.farol-img3:hover{
+  border-radius: 60px;
+  box-shadow: 0 20px 80px 20px red;
+  -webkit-border-radius: 60px;
+  -moz-border-radius: 60px;
+  -ms-border-radius: 60px;
+  -o-border-radius: 60px;
 }
