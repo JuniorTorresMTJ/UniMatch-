@@ -4,227 +4,188 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="stylesheet" type="text/css" href="./css/main.css" />
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet"  integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"/>
-    <link rel="shortcut icon" type="image/x-icon" href="./img/favicon.ico">
-    <meta name="author" content="MARIVALDO TORRES JUNIOR" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="shortcut icon" type="image/x-icon" href="./img/favicon.ico" />
+    <meta
+      name="author"
+      content=" co-authored by MARIVALDO TORRES JUNIOR, LUCAS ROCHA"
+    />
     <meta name="description" content="Hot Site da UniMatch" />
-    <meta name="keywords"  content="Festa, Universitário, Apê do Estudante, Match, Estudante, Republica "/>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
-    <script language="JavaScript" src="./JS/main.js"></script>
+    <meta
+      name="keywords"
+      content="Festa, Universitário, Apê do Estudante, Match, Estudante, Republica, UniMatch "
+    />
     <!-- Facebook Pixel -->
     <script>
-      !function(f,b,e,v,n,t,s)
-      {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-      n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-      if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-      n.queue=[];t=b.createElement(e);t.async=!0;
-      t.src=v;s=b.getElementsByTagName(e)[0];
-      s.parentNode.insertBefore(t,s)}(window,document,'script',
-      'https://connect.facebook.net/en_US/fbevents.js');
-       fbq('init', '2306930996241310'); 
+      !(function(f, b, e, v, n, t, s) {
+        if (f.fbq) return;
+        n = f.fbq = function() {
+          n.callMethod
+            ? n.callMethod.apply(n, arguments)
+            : n.queue.push(arguments);
+        };
+        if (!f._fbq) f._fbq = n;
+        n.push = n;
+        n.loaded = !0;
+        n.version = '2.0';
+        n.queue = [];
+        t = b.createElement(e);
+        t.async = !0;
+        t.src = v;
+        s = b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t, s);
+      })(
+        window,
+        document,
+        'script',
+        'https://connect.facebook.net/en_US/fbevents.js'
+      );
+      fbq('init', '2306930996241310');
       fbq('track', 'PageView');
-      </script>
-      <noscript>
-       <img height="1" width="1" 
-      src="https://www.facebook.com/tr?id=2306930996241310&ev=PageView
-      &noscript=1"/>
-      </noscript>
-      <!-- End Facebook Pixel Code -->
+    </script>
+    <noscript>
+      <img
+        height="1"
+        width="1"
+        src="https://www.facebook.com/tr?id=2306930996241310&ev=PageView
+      &noscript=1"
+      />
+    </noscript>
+    <!-- End Facebook Pixel Code -->
     <meta property=”og:image” content=”./img/capa.png” />
-    <meta property="og:image:type" content="#">
-    <meta property="og:image:width" content="800">
-    <meta property="og:image:height" content="600">
-    <meta property=”fb:app_id” content=”87741124305″ />
-
-
+    <meta property="og:image:type" content="#" />
+    <meta property="og:image:width" content="800" />
+    <meta property="og:image:height" content="600" />
+    <meta property="”fb:app_id”" content="”87741124305″" />
     <title>UniMatch</title>
   </head>
   <body>
-    <nav id="navbar" class="navbar fixed-top navbar-expand-sm">
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#nav-content"
-        aria-controls="nav-content"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="nav-content">
-        <ul class="navbar-nav w-100 nav-justified">
-            <li class="nav-item">
-                <a class="nav-link" href="#section1">UNIMATCH</a>
+    <header class="nav-menu">
+      <nav>
+        <ul>
+          <li><a href="#section1">Unimatch</a></li>
+          <li><a href="#section2">Sobre</a></li>
+          <li><a href="#section3">Atraçoes</a></li>
+          <li>
+            <a
+              href="https://www.sympla.com.br/unimatch__626101"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Ingressos</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <section class="hero">
+      <div class="container">
+        <img src="img/logo_unimatch.svg" alt="Logo" />
+
+        <div>
+          <p>29 AGO | LOCAL | 22H</p>
+          <a
+            href="https://www.sympla.com.br/unimatch__626101"
+            class="hero-btn"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Comprar Ingresso</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <section class="section2" id="section2">
+      <div class="container">
+        <div>
+          <h2>Sobre a Unimatch</h2>
+          <p>
+            A UniMatch é um evento pensado nos universitários da cidade de São
+            Paulo que buscam pessoas para dividir um imóvel. Tanto para quem tem
+            um local disponível em sua casa tanto quem está a procura de um. A
+            partir de um espaço descontraído com música, jogos universitários,
+            bebidas e comida esperamos que os participantes possam se sentir à
+            vontade para fazer novas amizades, conversar e encontrar seu roomate
+            perfeito.
+          </p>
+        </div>
+        <div>
+          <h3>
+            E AÍ, TÁ PROCURANDO UM ROOMMATE? A COR DA SUA PULSEIRA VAI DIZER!
+          </h3>
+          <ul>
+            <li>
+              <img
+                class="farol-img"
+                src="./img/verde.png"
+                alt="Circulo verde"
+              />
+              <p>EU TÔ!</p>
             </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#section2" role="button">SOBRE</a>
+            <li>
+              <img
+                class="farol-img2"
+                src="./img/amarelo.png"
+                alt="Circulo amarelo"
+              />
+              <p>QUEM SABE?</p>
+            </li>
+            <li>
+              <img
+                class="farol-img3"
+                src="./img/red.png"
+                alt="circulo vermelho"
+              />
+              <p>NEM VEM!</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section class="section3" id="section3">
+      <div>
+        <p>MÚSICA</p>
+        <ul>
+          <li>
+            <img src="./img/6-layers.png" alt="" />
+            <p>POP</p>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#section3" role="button">ATRAÇÕES</a>
+          <li>
+            <img src="./img/6-layers.png" alt="" />
+            <p>ELETRÔNICA</p>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#section4" role="button">APOIO</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="https://www.sympla.com.br/unimatch__626101" role="button">INGRESSOS</a>
+          <li>
+            <img src="./img/6-layers.png" alt="" />
+            <p>ROCK</p>
           </li>
         </ul>
       </div>
-    </nav>
-
-    <div class="full" >
-        <section id="section1" class="section1 bg-responsive">
-            <div class="row text-center">
-                <div class="col">
-                    <div class="row">
-                        <div class="col">
-                            <a href="https://www.sympla.com.br/unimatch__626101"><img src="./img/logo_unimatch.svg" alt="Logo UniMatch" /></a>
-                            
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col"><p class="til">29 AGO | LOCAL | 22H</p></div>
-                    </div>
-                    <div class="row">
-                        <div class="col grow mt-5 butt"
-                        ><a class="btn-ingresso" href="https://www.sympla.com.br/unimatch__626101">COMPRAR INGRESSO</a></div>
-                    </div>
-                    
-            </div> 
-            </div> 
-          </section>
-      <section id="section2" class="section2 bg-responsive">
-        <div class="row">
-            <div class="col text-center">
-              <br>
-              <br>
-                <div class="row">
-                    <div class="col"><p class="sobre-til-2">SOBRE A UNIMATCH</p></div>
-                </div>
-                <div class="row">
-                    <div class="col">
-                        <p class="sobre-text text-justify font-x1">A UniMatch é um evento pensado nos universitários da cidade de
-                            São Paulo que buscam pessoas para dividir um imóvel. Tanto para
-                            quem tem um local disponível em sua casa tanto quem está a
-                            procura de um. A partir de um espaço descontraído com música,
-                            jogos universitários, bebidas e comida esperamos que os
-                            participantes possam se sentir à vontade para fazer novas
-                            amizades, conversar e encontrar seu roomate perfeito.
-                    </div>
-                </div>
-                <br>
-                <br>
-                <br>
-                <div class="row">
-                    <div class="col "><p class="sobre-til-3 text-center">E AÍ, TÁ PROCURANDO UM ROOMMATE?<br>
-                        A COR DA SUA PULSEIRA VAI DIZER!</p></div>
-                </div>
-                <br>
-                <br>
-                <div class="row">
-                    <div class="col"><img class="farol-img" src="./img/verde.png"/>
-                    </div>
-                    <div class="col"><img class="farol-img2" src="./img/amarelo.png"/>
-                    </div>
-                    <div class="col"><img  class="farol-img3" src="./img/red.png"/>
-                    </div>
-                
-                </div> <br>
-                <div class="row">
-                   <div class="col farol-text">EU TÔ!</div>
-                   <div class="col farol-text">QUEM SABE?</div>
-                   <div class="col farol-text">NEM VEM!</div>
-                 </div>
-            </div>
-        </div>
-        
-      </section>
-      <section id="section3" class="section3 bg-responsive">
-        <div class="row">
-            <div class="col text-center">
-                <div class="space2">
-
-                </div>
-
-                <div class="row">
-                    <div class="col til-2">MUSICA</div>
-                </div>
-                <br>
-                <br>
-
-                <div class="row">
-                    <div class="col "><img src="./img/CUP.png"/> </div>
-                    <div class="col "><img src="./img/CUP.png"/></div>
-                    <div class="col "><img src="./img/CUP.png"/></div>
-                </div>
-                <BR>
-                <div class="row">
-                    <div class="col til-3">BEYONCÉ</div>
-                    <div class="col til-3">BRITNEY SPEARS</div>
-                    <div class="col til-3">XTINA</div>
-                </div>
-               <div class="space"></div>
-
-                <div class="row">
-                    <div class="col til-2">JOGOS</div>
-                </div>
-                <br>
-                <br>
-                <div class="row">
-                    <div class="col "><img src="./img/CUP.png"/> </div>
-                    <div class="col "><img src="./img/CUP.png"/></div>
-                    <div class="col"><img src="./img/CUP.png"/></div>
-                </div>
-                <BR>
-                <div class="row">
-                    <div class="col til-3">VDD OU DESAFIO </div>
-                    <div class="col til-3">BEER PONG</div>
-                    <div class="col til-3">KARAOKÊ</div>
-                </div>
-            </div>
-        </div>
-      </section>
-
-      <section id="section4" class="section4 bg-responsive">
-          <div class="row">
-              <div class="col text-center">
-                  <div class="space2">
-  
-                  </div>
-                  <div class="space2">
-  
-                    </div>
-  
-                  <div class="row">
-                      <div class="col til-4 ">APOIO</div>
-                  </div>
-                  
-                  <div class="space2">
-  
-                    </div>
-                  <div class="row">
-                    <div class="col img-apoio"><img src="./img/apoio.png"/> </div>
-                    <div class="col img-apoio"><img src="./img/apoio.png"/> </div>
-                    <div class="col img-apoio"><img src="./img/apoio.png"/> </div>
-                    <div class="col img-apoio"><img src="./img/apoio.png"/> </div>
-                  </div>
-                  
-                  <BR>
-                  <div class="row">
-                      <div class="col apoio"></div>
-                      <div class="col apoio"></div>
-                      <div class="col apoio"></div>
-                      <div class="col apoio"></div>
-                  </div>
-              </div>
-          </div>
-          
-      </section>
-      <!-- <div id="sympla-widget-626101" height="auto"></div> -->
+      <div>
+        <p>JOGOS</p>
+        <ul>
+          <li>
+            <img src="./img/6-layers.png" alt="" />
+            <p>BEER PONG</p>
+          </li>
+          <li>
+            <img src="./img/6-layers.png" alt="" />
+            <p>UNO</p>
+          </li>
+          <li>
+            <img src="./img/6-layers.png" alt="" />
+            <p>KARAOKÊ</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="section4" id="section4">
+      <div>
+        <h2>INGRESSOS</h2>
+        <div id="sympla-widget-626101" height="auto"></div>
+      </div>
+    </section>
   </body>
   <footer>
-    <script src="https://www.sympla.com.br/js/sympla.widget-pt.js/626101"></script> 
+    <script src="https://www.sympla.com.br/js/sympla.widget-pt.js/626101"></script>
   </footer>
 </html>
