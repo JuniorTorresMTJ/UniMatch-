@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css?family=Alfa+Slab+One|Open+Sans&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-size: 16px;
+  font-family: 'Alfa Slab One', cursive;
+}
+
+@media only screen and (max-width: 768px) {
+  html,
+  body {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  html,
+  body {
+    font-size: 10px;
+  }
+}
+nav a,
+a:hover,
+a:visited {
+  color: #fff;
+  font-weight: 400;
+  text-decoration: none;
+  letter-spacing: 0.125rem;
+  text-transform: uppercase;
+}
+
+nav a:hover {
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+.container {
+  width: 100%;
+  max-width: 970px;
+  margin: 0 auto;
+}
+
+/** Nav */
+
+.nav-menu {
+  background-color: #6b3194;
+}
+
+.nav-menu ul {
+  text-align: center;
+}
+
+.nav-menu li {
+  font-weight: 400;
+  font-size: 1.625rem;
+  display: inline-flex;
+  letter-spacing: 0.125rem;
+  text-transform: uppercase;
+  padding: 1.25rem 1.875rem;
+  justify-content: space-around;
+}
+
+/* HERO **/
+
+.hero {
+  padding: 0.625rem 0;
+  text-align: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-image: url(../img/section1.png);
+}
+
+.hero img {
+  width: 70%;
+}
+
+.hero p {
+  color: #6b3194;
+  font-size: 2.625rem;
+  text-shadow: 0.25rem 0.25rem 0 #ffffff;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.hero-btn {
+  display: inline-block;
+  background-color: #6b3194;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 2.25rem;
+  padding: 1.3rem 1.875rem;
+  border-radius: 5rem;
+  margin: 1.875rem 0;
+  letter-spacing: 3.06px;
+}
+
+.hero-btn:hover {
+  border-radius: 5rem;
+  -webkit-border-radius: 5rem;
+  -moz-border-radius: 5rem;
+  -ms-border-radius: 5rem;
+  -o-border-radius: 5rem;
+  box-shadow: 0 1.25rem 5rem 1.25rem #6b319469;
+}
+
+/* Section2 */
+
+.section2 {
+  color: #fff;
+  padding: 60px 0;
+  text-align: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-image: url(../img/section2.png);
+}
+
+.section2 h2 {
+  margin: 1.875rem 0;
+
+  text-shadow: 0.25rem 0.25rem 0 #54197e;
+  font-size: 3.5rem;
+  font-weight: 400;
+  letter-spacing: 0.3rem;
+  text-transform: uppercase;
+}
+
+.section2 div > p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.375rem;
+  font-weight: 400;
+  line-height: 2rem;
+}
+
+.section2 h3 {
+  font-size: 2rem;
+  text-transform: uppercase;
+  margin: 1.875rem 0;
+  text-shadow: 0.1875rem 0.1875rem 0 #54197e;
+  font-size: 1.875rem;
+  font-weight: 400;
+  letter-spacing: 0.15rem;
+}
+
+.section2 ul {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.section2 li {
+  width: 6.5rem;
+}
+
+.section2 li > p {
+  text-shadow: 0.1875rem 0.1875rem 0 #54197e;
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 400;
+  letter-spacing: 0.125rem;
+  text-transform: uppercase;
+}
+
+.section2 li > img {
+  width: 85%;
+}
+
+/* section3 */
+
+.section3 {
+  color: #6b3194;
+  padding: 60px 0;
+  text-align: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-image: url(../img/section3.png);
+}
+
+.section3 > div {
+  padding: 5rem 0;
+}
+.section3 ul {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.section3 div > p {
+  text-shadow: 4px 4px 0 #ffffff;
+  font-size: 3.5rem;
+  font-weight: 400;
+  letter-spacing: 0, 3125rem;
+  text-transform: uppercase;
+}
+
+.section3 li > p {
+  font-size: 1.5rem;
+  font-weight: 400;
+  letter-spacing: 0.125rem;
+  text-shadow: 0.125rem 0.125rem 0.25rem #ffffff;
+}
+
+/* section 4 */
+
+.section4 {
+  color: #6b3194;
+  padding: 60px 0;
+  text-align: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-image: url(../img/fundo_apoio.png);
+}
+
+.section4 h2 {
+  color: #fff;
+  font-size: 3.5rem;
+  font-weight: 400;
+  letter-spacing: 0.3125rem;
+  text-transform: uppercase;
+  text-shadow: 0.25rem 0.25rem 0 #612292;
+}
+
+.section4 div > div {
+  margin: 0 auto 0 auto;
+}
